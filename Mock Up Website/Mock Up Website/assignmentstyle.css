@@ -1,0 +1,451 @@
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*** Section 1: Header ***/
+
+.header{
+    background-color:beige;
+    /*padding: 10px;*/
+    width:100%;
+    height:80px;
+    display: block;
+    position: relative;
+   background-position: center;
+    border-bottom: 3px solid grey;
+    background-size: 100% 100%;
+}
+
+.headerbox{
+    position:relative;
+    top:20px;
+    text-align: center;
+    margin: auto;
+    width: 95%;
+    /*border: 1px solid;*/
+    
+}
+.box1{
+    position: relative;
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+    /*float:left;*/
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #bfbfbf;
+    background-color: #bfbfbf; 
+    
+}
+
+.box2{
+    position: relative;
+    width: 40px;
+    height: auto;
+margin-right: 5px;
+     border-radius:3px;
+    border: 1px solid #bfbfbf;
+    padding: 10px;
+    background: #bfbfbf;
+}
+
+.box3{
+    position: relative;
+    width: 40px;
+    height: auto;
+   margin-right: 5px; 
+     border-radius: 3px;
+    border: 1px solid #bfbfbf;
+    padding: 10px;
+    background: #bfbfbf;
+    
+}
+
+.box4{
+    position: relative;
+    width: 40px;
+    height: auto;  
+    margin-right: 15px;
+     border-radius: 3px;
+    border: 1px solid #bfbfbf;
+    padding: 10px;
+    background: #bfbfbf;
+}
+
+.box5{
+    position: relative;
+    width: 1000px;
+    height: auto; 
+    margin-right: 15px;
+     border-radius: 3px;
+    border: 1px solid beige;
+    padding: 10px;
+      
+}
+
+.box6{
+    position: relative;
+    width: 300px;
+    height: auto; 
+    /*float:right;*/
+    border: 1px solid beige;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+
+
+/*** Section 2: Navigation ***/
+
+.navi {
+     background-color:white;
+    
+    width:100%;
+    height:300px;
+    display: block;
+    position: relative;
+   background-position: center;
+    border-bottom: 3px solid grey;
+    
+
+}
+
+.navibox {
+    
+    position:relative;
+    top: 20px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    /*border: 1px solid;*/
+}
+
+.navi_image {
+    position: relative;
+    
+    top: 20px;
+    border: 5px solid grey;
+    margin:auto;
+    width: 125px;
+    height: 125px;
+    border-radius:50%;
+    background-color: grey;
+    display: block;
+
+}
+
+.navilist {
+    position:relative;
+    top: 50px;
+}
+
+.boxnavi1{
+
+    border-radius: 3px;
+    border: 1px solid grey;
+    background:grey;
+    margin-right: 20px;
+    
+}
+
+.boxnavi2{
+  
+    border-radius:3px;
+    border: 1px solid grey;
+    background: grey;
+    margin-right: 20px;
+}
+
+.boxnavi3{
+    
+     border-radius: 3px;
+    border: 1px solid grey;
+    background: grey;
+    margin-right: 20px;
+    
+}
+
+.boxnavi4{
+    
+    border-radius: 3px;
+    border: 1px solid grey;
+    background: grey;
+}
+
+/*** Section 3: Image Scroller ***/
+
+.scroller {
+    
+    background-color:#e6e6e6;
+    width:100%;
+    height:500px;
+    /*display: block;*/
+    position: relative;
+   background-position: center;
+    border-bottom: 3px solid grey;
+}
+
+.scrollerbox {
+    
+    position:relative;
+    top: 50px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    /*border: 1px solid;*/
+}
+
+.scrollbox1{
+    position:relative;
+    top:150px;
+}
+
+.textbox1{
+    padding: 8px;
+    border:1px solid #737373;
+    border-radius: 3px;
+    background: #737373;
+    width: 40%;
+}
+
+.textbox2{
+    border:1px solid #bfbfbf;
+    border-radius: 3px;
+    width: 50%;
+    margin-bottom: 5px;
+    background: #bfbfbf;
+}
+
+.textbox3{
+    border:1px solid #bfbfbf;
+    border-radius: 3px;
+    width: 50%;
+    background: #bfbfbf;
+    
+}
+
+/*** Section 4: Product Gallery ***/
+
+.pro {
+    position: relative;
+    background-color: white;
+    display: block;
+    width: 100%;
+    height:1000px;
+}
+
+.probox {
+    position:relative;
+    top: 30px;
+    margin: auto;
+    padding: 5px;
+    width: 95%;
+    height: 900px;
+    /*border: 1px solid;*/    
+}
+
+/*Product Box 1*/
+
+#pro1{
+    position: relative;
+    display: inline-block;
+    width: 32%;
+    height: 45%;
+    /*border: 1px solid blue;*/
+    
+}
+#propic1 {
+    position:absolute;
+    width: 100%;
+    height:70%;
+    /*border:1px solid;*/
+    background-color: #8c8c8c;
+    border-radius: 2px;
+}
+
+.proinfobox1{
+    position:relative;
+    top: 70%;
+    width: 100%;
+    height:30%;
+    /*border:1px solid;*/
+    
+}
+.probox1 {
+    position: absolute;
+    top: 15%;
+    width: 40%;
+    padding: 8px;
+    background: #737373;
+    border-radius: 5px;
+    border: 1px solid #737373;
+    
+}
+
+.probox2 {
+    position: absolute;
+    width:100%;
+    margin-top: 25px;
+   
+    background: #bfbfbf;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+}
+
+.probox3 {
+    position: absolute;
+    width:100%;
+    margin-top: 35px;
+    background: #bfbfbf;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+}
+
+/*Product Box 2*/
+
+#pro2{
+    position: relative;
+    display: inline-block;
+    top: 1px;
+    margin-right: 18px;
+    margin-left: 18px;
+    width: 32%;
+    height: 45%;
+    /*border: 1px solid blue;*/
+    
+}
+#propic2 {
+    position:absolute;
+    width: 100%;
+    height:70%;
+    /*border:1px solid;*/
+    background-color: #8c8c8c;
+    border-radius: 2px;
+}
+
+.proinfobox2{
+    position:relative;
+    top: 70%;
+    width: 100%;
+    height:30%;
+    /*border:1px solid;*/   
+}
+
+/*Product Box 3*/
+
+#pro3{
+    position: relative;
+    display: inline-block;
+    top: 1px;
+    width: 32%;
+    height: 45%;
+    /*border: 1px solid blue;*/
+    
+}
+#propic3 {
+    position:absolute;
+    width: 100%;
+    height:70%;
+    /*border:1px solid;*/ 
+    background-color: #8c8c8c;
+    border-radius: 2px;
+}
+
+.proinfobox3{
+    position:relative;
+    top: 70%;
+    width: 100%;
+    height:30%;
+    /*border:1px solid;*/   
+}
+
+/*Product Box 4*/
+
+#pro4{
+    position: relative;
+    display: inline-block;
+    margin-top: 25px;
+    width: 32%;
+    height: 45%;
+    /*border: 1px solid blue;*/
+    
+}
+#propic4 {
+    position:absolute;
+    width: 100%;
+    height:70%;
+    /*border:1px solid;*/ 
+    background-color: #8c8c8c;
+    border-radius: 2px;
+}
+
+.proinfobox4{
+    position:relative;
+    top: 70%;
+    width: 100%;
+    height:30%;
+    /*border:1px solid;*/    
+}
+
+/*Product Box 5*/
+
+#pro5{
+    position: relative;
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 18px;
+    margin-left: 18px;
+    width: 32%;
+    height: 45%;
+    /*border: 1px solid blue;*/
+    
+}
+#propic5 {
+    position:absolute;
+    width: 100%;
+    height:70%;
+    /*border:1px solid;*/ 
+    background-color: #8c8c8c;
+    border-radius: 2px;
+}
+
+.proinfobox5{
+    position:relative;
+    top: 70%;
+    width: 100%;
+    height:30%;
+    /*border:1px solid;*/    
+}
+
+/*Product Box 6*/
+
+#pro6{
+    position: relative;
+    display: inline-block;
+    margin-top: 25px;
+    width: 32%;
+    height: 45%;
+    /*border: 1px solid blue;*/
+    
+}
+#propic6{
+    position:absolute;
+    width: 100%;
+    height:70%;
+    /*border:1px solid;*/ 
+    background-color: #8c8c8c;
+    border-radius: 2px;
+}
+
+.proinfobox6{
+    position:relative;
+    top: 70%;
+    width: 100%;
+    height:30%;
+    /*border:1px solid;*/   
+}
