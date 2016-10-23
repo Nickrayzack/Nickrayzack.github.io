@@ -1,0 +1,322 @@
+/* Header Section */
+
+ /*link to main.css, responsive.css,n normalize.css */ 
+
+
+/* Parent Box style */
+.mainbox {
+    position: relative;
+    text-align: center;
+    margin: auto;
+   transform: translate(0%, 5%);
+    width: 1000px;
+    height: 2000px;
+    
+}
+
+/* Search Section style */
+
+#search-box {
+  position: absolute;
+    margin: auto;
+   transform: translate(15%, 100%);
+}
+
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+.flexsearch--wrapper {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	overflow: hidden;
+	background: transparent;
+	margin: 0;
+	position: static;
+}
+
+.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+
+	
+.flexsearch--input-wrapper {
+	padding: 0 66px 0 0; /* Right padding for submit button width */
+	overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 100%;
+}
+
+/***********************
+ * Configurable Styles *
+ ***********************/
+.flexsearch {
+  padding: 0 25px 0 25px; /* Padding for other horizontal elements */
+}
+
+.flexsearch--input {
+  -webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+ 	height: 60px;
+  padding: 0 46px 0 10px;
+	border-color: #888;
+  border-radius: 35px; /* (height/2) + border-width */
+  border-style: solid;
+	border-width: 5px;
+  margin-top: 15px;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+	font-size: 26px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+	
+.flexsearch--submit {
+  position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 60px;
+	height: 60px;
+  padding: 0;
+  border: none;
+	margin-top: 35px; /* margin-top + border-width */
+  margin-right: 15px; /* border-width */
+	background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+ 	color: #333; 
+}
+
+.flexsearch--submit:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: #888;  
+}
+
+input:-moz-placeholder {
+  color: #888
+}
+
+
+/* Profile Section */
+
+#profile-box{
+    position: relative;
+    margin: auto;
+   transform: translate(14%, 20%);
+    width: 1000px;
+    height: 1500px;
+}
+
+.img-holder {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+#profile1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height:200px;
+    width: 200px;
+}
+
+#profile2 {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    height:200px;
+    width: 200px;
+}
+
+#profile3 {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    height:200px;
+    width: 200px;
+}
+
+/*#profile4 {
+    position: absolute;
+    top: 0px;
+    left: 750px;
+    height:200px;
+    width: 200px;
+}*/
+
+#profile5 {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    height:200px;
+    width: 200px;
+}
+
+#profile6 {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    height:200px;
+    width: 200px;
+}
+
+#profile7 {
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    height:200px;
+    width: 200px;
+}
+
+/*#profile8 {
+    position: absolute;
+    top: 250px;
+    left: 750px;
+    height:200px;
+    width: 200px;
+}*/
+
+#profile9 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    height:200px;
+    width: 200px;
+}
+
+#profile10 {
+    position: absolute;
+    top: 500px;
+    left: 250px;
+    height:200px;
+    width: 200px;
+}
+
+#profile11 {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    height:200px;
+    width: 200px;
+}
+
+/*#profile12 {
+    position: absolute;
+    top: 500px;
+    left: 750px;
+    height:200px;
+    width: 200px;
+}*/
+
+.img{
+	background-image:url("http://placehold.it/300x300");
+	overflow:hidden;
+}
+
+.img:before{
+	content:"";
+	font-size:100px;
+}
+
+.img-circle:hover {
+opacity:0.6;
+}
+
+.img-circle{
+	border-radius:50%;
+	width:380px ; height:230px ; 
+	border:5px solid black; 
+	display:inline-block; 
+	margin-top:5px; 
+	margin-left:5px opacity=0; 
+	-webkit-transition: opacity .25s ease;
+	-moz-transition:opacity .25s ease;
+}
+
+.img-circle {
+ position:absolute;
+ top:0;
+ left:0;
+ }
+
+.img-holder #addimage {
+    position: relative;
+    top: 80px;
+    left: 10px;
+    visibility: hidden;}
+
+.img-holder:hover #addimage {
+visibility:visible;
+}
+
+/* Pagination section*/
+
+.pagenumbering{
+    position: absolute;
+    margin: auto;
+    top: 1110px;
+   transform: translate(90%, 0%);
+    
+    
+}
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    font-size: 25px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+ 

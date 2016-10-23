@@ -1,0 +1,1211 @@
+/*** Personal Info FieldSet Style ***/
+.label-box:hover, .label-box:active, input:hover+.label-box, input:active+.label-box {
+    background:#d3d3d3;
+}
+
+
+.userprofile:hover #plus, .userprofile:active #plus ,input:hover+.userprofile, input:active+.userprofile{
+	background:#d3d3d3;
+	font-size:18px;
+	width:100px;
+	display:block;
+}
+
+.userprofile:hover #position-plus, .userprofile:active #position-plus ,input:hover+.userprofile, input:active+.userprofile{
+	background:#d3d3d3;
+	font-size:18px;
+	width:100px;
+	display:block;
+}
+
+.profilelist {
+ position:relative;
+ height:200px;
+ 
+}
+.img-circle {
+ position:absolute;
+ top:0;
+ left:0;
+ width:150px;
+ cursor: pointer;
+	border-radius:50%;
+	width:200px ; height:200px ; 
+	border:1px solid black; 
+	display:inline-block; 
+	margin-top:5px; 
+	margin-left:5px opacity=0; 
+	-webkit-transition: opacity .25s ease;
+	-moz-transition:opacity .25s ease;
+}
+
+.img{
+	background-image:url("http://placehold.it/300x300");
+	overflow:hidden;
+}
+
+.img:before{
+	content:"";
+	font-size:100px;
+}
+    
+/*nik tambah*/
+.img-holder #addimage {
+position:relative;
+top:80px;
+left:40px;
+visibility:hidden;
+}
+
+.img-holder:hover #addimage {
+visibility:visible;
+}
+
+.img-circle:hover {
+opacity:0.6;
+}
+    
+    #addimage {
+        margin: 0px 10px 10px 6px;
+    font-weight: bold;
+    padding-top: 5px;
+        padding-right: 20px;
+        cursor: pointer;
+    }
+    
+   
+    #submitImage {
+        position: relative;
+	padding: 3.3px 12px 3.3px 12px;
+  margin: -1px 5px 10px 7px;
+ float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+       
+    }
+    
+ 
+    #picturepara{
+        /**font-family: 'Pacifico', cursive;**/
+        font-size: 15px;
+        padding-bottom: 6px;
+        padding-top: 10px;   
+    }
+    
+   
+    
+    #pic-name{
+        font-family: 'Pacifico', cursive;
+        font-size: 13px;
+        float: left;
+        padding: 2px;
+        width: 310px;
+    }
+    
+    
+    .info {
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    top: 80px;
+    margin-right: 10px;
+
+    }
+    
+   
+    #dialog1 {
+        height: 100px !important;
+        /**font-family: 'Changa One' !important;**/
+    }
+    
+   
+    #user-name {
+        text-align: left;
+        padding: 1px 5px 1px 5px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    
+     #user-position{
+     text-align: left;
+     padding: 1px 5px 1px 5px;
+     cursor: pointer;
+    }
+    
+    #userfirstnamebox{
+        width: 200px;
+    }
+    
+     #userpositionbox{
+        width: 200px;
+    }
+    
+    #button_edit {
+    margin: 1px;
+    position: relative;
+    bottom: 1px;
+    visibility:hidden;
+    }
+    
+    #userfirstnamebox:hover #button_edit {
+     background:#d3d3d3; 
+        visibility:visible;
+    }
+    
+     #userfirstnamebox:hover #user-name {
+     background:#d3d3d3; 
+        visibility:visible;
+    }
+    
+     #userpositionbox:hover #button_edit {
+     background:#d3d3d3; 
+        visibility:visible;
+    }
+    
+     #userpositionbox:hover #user-position {
+     background:#d3d3d3; 
+        visibility:visible;
+    }
+
+   
+    #button_save {
+    position: relative;
+	padding: 3.3px 12px 3.3px 12px;
+    margin: -1px 5px 10px 7px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+}
+    
+    #button_cancel{
+    position: relative;
+	padding: 3.3px 9px 3.3px 9px;
+    margin: -1px 5px 10px 1px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+        
+    }
+    
+  
+     #first_name {
+        float: left;
+        font-size: 13px;
+         padding: 5px;
+    }
+    
+   
+    .ui-dialog .ui-dialog-content{
+    border: 0;
+    padding: .5em 1em;
+    background: #ebfaeb;
+    overflow: auto;
+    zoom: 1;
+        /**font-family: 'Changa One' !important;**/
+}
+    .ui-dialog-title{
+         background-color: #70db70;
+    }
+    
+    .ui-widget-header{
+             background: #70db70 !important;
+    }
+    
+    .ui-dialog .ui-dialog-titlebar{
+            padding:.1em .1em;
+            position: relative;
+
+    }
+    
+    .ui-corner-all{
+        border-bottom-left-radius:.1px;
+        border-bottom-right-radius:.1px;
+            border-top-right-radius:.1px;
+        border-top-left-radius:.1px;
+    }
+ 
+    .ui-dialog  {
+        width: 488px !important;
+        font
+    }
+
+/************************************************************* Contribution Fieldset Style ******************************************************************/
+
+#contlgnd {
+        margin-left: 25px;
+}
+
+.box-cont {
+    padding: 0px;
+}
+
+
+.cont1, .cont3, .cont5, .cont7, .cont9, .cont11, .cont13, .cont15, .cont17, .cont19, .cont21 {
+    display: inline-block;
+    padding: 5px;
+    line-height: 17px;
+    color: #333;
+    font-weight: normal;
+   
+    position: relative;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 1px;
+    width: 170px;
+    cursor: pointer;
+    margin-top: 3px;
+     font-size: 15px;
+    margin-left: 6px;
+    
+}
+
+
+
+.cont2, .cont4, .cont6, .cont8, .cont10, .cont12, .cont14, .cont16, .cont18 {
+    display: inline-block;
+    padding: 5px;
+    line-height: 17px;
+    color: #333;
+    font-weight: normal;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 1px;
+    width: 250px;
+    margin-top: 3px;
+    font-size: 15px;
+}
+
+
+
+.cont20 {
+    display: inline-block;
+    margin-top: 3px;
+    font-size: 15px;
+    width: 250px;
+     padding: 5px;
+    line-height: 17px;
+    color: #333;
+    font-weight: normal;
+   
+}
+
+.cont1:hover, .cont2:hover,.cont3:hover,.cont4:hover, .cont5:hover,.cont6:hover, .cont7:hover, .cont8:hover,.cont9:hover, .cont10:hover,.cont11:hover, .cont12:hover, .cont13:hover, .cont14:hover, .cont15:hover,.cont16:hover,.cont17:hover,.cont18:hover,.cont19:hover, .cont21:hover {
+    text-decoration: none;
+    color: black;
+    background: #ebf0fa;
+    opacity: 0.8;
+    font-weight: bold;
+   font-size: 14px;
+}
+
+
+
+
+.addcontbutton {
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    width: auto;
+    padding: 0 10px;
+    height: 26px;
+    line-height: 24px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border-color: #a7a7a7;
+    zoom: 1;
+    margin-left: 5px;
+    padding-top: 1px;
+    vertical-align: top;
+    border: 0;
+    text-shadow: none;
+    border-radius: 5px;
+    margin: 0.1em;
+    position: relative;
+    bottom: 25px;
+  background:#e6ecff; 
+    left: 305px;
+    visibility: hidden;
+    
+}
+
+.addcontbutton:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #00a0dc;
+   
+}
+
+ .contprofile:hover .addcontbutton {
+        visibility:visible;
+    }
+
+
+  .cont-add {	
+ 	margin: auto;
+    background-color: lightblue;
+	width: 100%;
+	position:absolute;
+	height:30px;
+    bottom:0px;
+    right:0;
+    text-align: center;
+    }
+
+#cont-add-font {
+    margin-top: 5px;
+}
+
+.cont-add:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #00a0dc;
+   
+}
+
+
+    #contsavebutton {
+        position: relative;
+	padding: 3px 12px 3px 12px;
+    margin: -1px 10px 10px 15px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;  
+    }
+    
+    #contcancelbutton {
+    position: relative;
+	padding: 3px 9px 3px 9px;
+    margin: -1px 5px 10px 1px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9; 
+    }
+
+
+/************************************************************* Skill Fieldset Style ******************************************************************/
+    
+.addskillbutton {
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    width: auto;
+    padding: 0 10px;
+    height: 26px;
+    line-height: 24px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border-color: #a7a7a7;
+    zoom: 1;
+    margin-left: 5px;
+    padding-top: 1px;
+    vertical-align: top;
+    border: 0;
+    text-shadow: none;
+    border-radius: 5px;
+    margin: 0.1em;
+    position: relative;
+    bottom: 25px;
+  background:#e6ecff; 
+    left: 329px;
+    visibility: hidden;
+    
+}
+
+.addskillbutton:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #00a0dc;
+   
+}
+
+ .userprofile:hover .addskillbutton {
+        visibility:visible;
+    }
+    
+    #skill-button {
+        width: 260px;
+        float: left;
+        padding: 3.5px 5px 3.5px 5px;
+        margin-bottom: 30px;
+    }
+    
+    .box-skill {
+        width: 400px;
+    }
+    
+    
+    #skill-save {
+        position: relative;
+	padding: 3px 12px 3px 12px;
+    margin: -1px 5px 10px 7px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+    }
+    
+    #skill-cancel{
+    position: relative;
+	padding: 3px 9px 3px 9px;
+    margin: -1px 5px 10px 1px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+    }
+   
+     .newdiv{
+        font-size: 15px; 
+        display:inline-block;
+        text-align: left;
+        padding: 1px 5px 1px 5px;
+        margin-bottom: 1px; 
+    }
+   
+    
+    /**#lhdnspan**/ section {
+        display: block;
+        height: 25px;
+    }
+    
+    #editbox {
+        display: block;
+    }
+
+    .skill-add {	
+ 	margin: auto;
+    background-color: lightblue;
+	width: 100%;
+	position:absolute;
+	height:30px;
+    bottom:0px;
+    right:0;
+    text-align: center;
+    }
+
+#skill-add-font {
+    margin-top: 5px;
+}
+
+.skill-add:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #00a0dc;
+   
+}
+
+    #editimage {
+        width: 10px;
+        height: 10px;
+    }
+    
+    #jkrdiv {
+     display: inline;
+     }
+     .button_click {
+    margin: 5px;
+    position: relative;
+    bottom: 1px;
+    visibility:hidden;
+    }
+    
+     section:hover .button_click {
+     background:#d3d3d3; 
+        visibility:visible;
+    }
+    
+    section:hover .newdiv {
+     background:#d3d3d3; 
+        visibility:visible;
+    }
+    
+    #skill-info {
+        position: relative;
+        bottom: 15px;
+    }
+    
+    .edit-input {
+        width: 260px;
+        float: left;
+        padding: 3.5px 5px 3.5px 5px;
+        
+    }
+    
+    #buttonsave {
+     position: relative;
+	padding: 3px 12px 3px 12px;
+    margin: -1px 5px 10px 7px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;   
+    }
+    
+    #buttoncancel {
+    position: relative;
+	padding: 3px 9px 3px 9px;
+    margin: -1px 5px 10px 1px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;  
+    }
+    
+    
+/******************************************************************* Experience  Fieldset Style *********************************************************/
+    
+.addexpbutton {
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    width: auto;
+    padding: 0 10px;
+    height: 26px;
+    line-height: 24px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border-color: #a7a7a7;
+    zoom: 1;
+    margin-left: 5px;
+    padding-top: 1px;
+    vertical-align: top;
+    border: 0;
+    text-shadow: none;
+    border-radius: 5px;
+    margin: 0.1em;
+    position: relative;
+    bottom: 25px;
+  background:#e6ecff; 
+    left: 287px;
+    visibility: hidden;
+    
+}
+
+.addexpbutton:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #00a0dc;
+   
+}
+
+ .expprofile:hover .addexpbutton {
+        visibility:visible;
+    }
+
+    #exp_title{
+        width: 392px;
+        padding: 4px 6px 4px;
+    }
+    
+     #exp_company{
+        width: 392px;
+        padding: 4px 6px 4px;
+    }
+    
+    #explabel {
+        margin-bottom: 5px;
+        display: block;
+        text-align: left;
+    }
+    
+    #expperiod {
+        font-size: 15px; 
+    }
+    
+    #expyear {
+        width: 50px;
+        padding: 4px 6px 4px;
+        
+    }
+    
+    .from {
+        margin-right: 5px;
+    }
+    
+    .expdescription {
+        display: block;
+        float: left;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    
+    #exp_description {
+        width: 392px;
+        padding: 4px 6px 4px;
+    }
+
+    
+    #explabeltitle {
+        margin-bottom: 3px;
+    }
+    
+    
+    
+    #explabelcompany {
+        margin-bottom: 3px;
+    }
+    
+    #butsave {
+        position: relative;
+	padding: 3px 12px 3px 12px;
+    margin: -1px 10px 10px 0px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;  
+    }
+    
+    #butcancel {
+    position: relative;
+	padding: 3px 9px 3px 9px;
+    margin: -1px 5px 10px 1px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9; 
+    }
+
+.exp-add {	
+ 	margin: auto;
+    background-color: lightblue;
+	width: 100%;
+	position:absolute;
+	height:30px;
+    bottom:0px;
+    right:0;
+    text-align: center;
+    }
+
+#exp-add-font {
+    margin-top: 5px;
+}
+
+.exp-add:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #00a0dc;
+   
+}
+    
+    /******************************************************************** Education Fieldset Style ********************************************************/
+    
+.addedubutton {
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    width: auto;
+    padding: 0 10px;
+    height: 26px;
+    line-height: 24px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border-color: #a7a7a7;
+    zoom: 1;
+    margin-left: 5px;
+    padding-top: 1px;
+    vertical-align: top;
+    border: 0;
+    text-shadow: none;
+    border-radius: 5px;
+    margin: 0.1em;
+    position: relative;
+    bottom: 25px;
+  background:#e6ecff; 
+    left: 295px;
+    visibility: hidden;
+    
+}
+
+.addedubutton:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #00a0dc;
+   
+}
+
+ .eduprofile:hover .addedubutton {
+        visibility:visible;
+    }
+
+
+    #edulabel {
+        margin-bottom: 3px;
+        display: block;
+        text-align: left;
+    }
+    
+    #edu_school {
+      width: 392px;
+      padding: 4px 6px;
+    }
+    
+     #eduperiod {
+        font-size: 15px; 
+    }
+    
+    #eduyear {
+        width: 50px;
+        padding: 4px 6px 4px;
+        
+    }
+    
+    .edufrom {
+        margin-right: 5px;
+    }
+    
+    #edu_degree {
+        width: 392px;
+      padding: 4px 6px;
+    }
+    
+    #edu_fostudy {
+        width: 392px;
+      padding: 4px 6px;
+    }
+    
+    #edulabeldescription {
+        margin-bottom: 5px;
+        display: block;
+        text-align: left;
+    }
+    
+    #edu_description {
+        width: 392px;
+      padding: 4px 6px;
+    }
+    
+    #edu-button-save {
+         position: relative;
+	padding: 3px 12px 3px 12px;
+    margin: -1px 10px 10px 0px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9; 
+    }
+    
+    #edu-button-cancel {
+        position: relative;
+	padding: 3px 9px 3px 9px;
+    margin: -1px 5px 10px 1px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9; 
+    }
+
+.edu-add {	
+ 	margin: auto;
+    background-color: lightblue;
+	width: 100%;
+	position:absolute;
+	height:30px;
+    bottom:0px;
+    right:0;
+    text-align: center;
+    }
+
+#edu-add-font {
+    margin-top: 5px;
+}
+
+.edu-add:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #00a0dc;
+   
+}
+    
+/********************************************************************* Certification Fieldset Style *******************************************************/
+    
+.addcertbutton {
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    width: auto;
+    padding: 0 10px;
+    height: 26px;
+    line-height: 24px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border-color: #a7a7a7;
+    zoom: 1;
+    margin-left: 5px;
+    padding-top: 1px;
+    vertical-align: top;
+    border: 0;
+    text-shadow: none;
+    border-radius: 5px;
+    margin: 0.1em;
+    position: relative;
+    bottom: 25px;
+  background:#e6ecff; 
+    left: 290px;
+    visibility: hidden;
+    
+}
+
+.addcertbutton:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #00a0dc;
+   
+}
+
+ .certprofile:hover .addcertbutton {
+        visibility:visible;
+    }
+
+
+     #certlabel {
+        margin-bottom: 3px;
+        display: block;
+        text-align: left;
+    }
+    
+    #cert_title {
+      width: 392px;
+      padding: 4px 6px;
+    }
+    
+     #cert_institute {
+      width: 392px;
+      padding: 4px 6px;
+    }
+    
+     #certperiod {
+        font-size: 15px; 
+    }
+    
+    #certyear {
+        width: 50px;
+        padding: 4px 6px 4px;
+        
+    }
+    
+    .certdate {
+        margin-right: 5px;
+    }
+    
+     #certlabeldescription {
+        margin-bottom: 5px;
+        display: block;
+        text-align: left;
+    }
+    
+    #cert_description {
+        width: 392px;
+      padding: 4px 6px;
+    }
+    
+     #cert-button-save {
+         position: relative;
+	padding: 3px 12px 3px 12px;
+    margin: -1px 10px 10px 0px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9; 
+    }
+    
+    #cert-button-cancel {
+        position: relative;
+	padding: 3px 9px 3px 9px;
+    margin: -1px 5px 10px 1px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9; 
+    }
+
+
+.cert-add {	
+ 	margin: auto;
+    background-color: lightblue;
+	width: 100%;
+	position:absolute;
+	height:30px;
+    bottom:0px;
+    right:0;
+    text-align: center;
+    }
+
+#cert-add-font {
+    margin-top: 5px;
+}
+
+.cert-add:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #00a0dc;
+   
+}
+
+    
+/************************************************************************* Organization Fieldset Style ******************************************************/
+    
+
+.addorgbutton {
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    width: auto;
+    padding: 0 10px;
+    height: 26px;
+    line-height: 24px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border-color: #a7a7a7;
+    zoom: 1;
+    margin-left: 5px;
+    padding-top: 1px;
+    vertical-align: top;
+    border: 0;
+    text-shadow: none;
+    border-radius: 5px;
+    margin: 0.1em;
+    position: relative;
+    bottom: 25px;
+  background:#e6ecff; 
+    left: 277px;
+    visibility: hidden;
+    
+}
+
+.addorgbutton:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #00a0dc;
+   
+}
+
+ .orgprofile:hover .addorgbutton {
+        visibility:visible;
+    }
+
+     #orgalabel {
+        margin-bottom: 3px;
+        display: block;
+        text-align: left;
+    }
+    
+    #orga_title {
+      width: 392px;
+      padding: 4px 6px;
+    }
+    
+     #orga_company {
+      width: 392px;
+      padding: 4px 6px;
+    }
+    
+     #orga_position {
+      width: 392px;
+      padding: 4px 6px;
+    }
+    
+     #orgaperiod {
+        font-size: 15px; 
+    }
+    
+    #orgayear {
+        width: 50px;
+        padding: 4px 6px 4px;
+        
+    }
+    
+    .orgafrom {
+        margin-right: 5px;
+    }
+    
+    #orgalabeldescription {
+        margin-bottom: 5px;
+        display: block;
+        text-align: left;
+    }
+    
+    #orga_description {
+        width: 392px;
+      padding: 4px 6px;
+    }
+    
+    #orga-button-save {
+         position: relative;
+	padding: 3px 12px 3px 12px;
+    margin: -1px 10px 10px 0px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9; 
+    }
+    
+    #orga-button-cancel {
+        position: relative;
+	padding: 3px 9px 3px 9px;
+    margin: -1px 5px 10px 1px;
+    float: left;
+	border-radius: 3px;
+	font-family: 'Pacifico', cursive;
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+        transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+        background-color: #3498DB;
+	border-bottom: 3px solid #2980B9;
+	text-shadow: 0px -2px #2980B9; 
+    }
+
+.orga-add {	
+ 	margin: auto;
+    background-color: lightblue;
+	width: 100%;
+	position:absolute;
+	height:30px;
+    bottom:0px;
+    right:0;
+    text-align: center;
+    }
+
+#orga-add-font {
+    margin-top: 5px;
+}
+
+.orga-add:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #00a0dc;
+   
+}
+    
