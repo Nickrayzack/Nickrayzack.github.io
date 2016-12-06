@@ -423,7 +423,7 @@ span#name-h1 {
     /* border: 10px dotted #007eec; */
     /* width: 85%; */
     /* margin: 55px auto 10px; */
-    padding: 100px;
+    padding: 100px 5px 100px 10px;
     background-position: center;
     margin-top: 90px;
     margin-left: auto;
